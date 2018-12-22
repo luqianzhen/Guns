@@ -4,6 +4,7 @@
 cd $PROJ_PATH/Guns
 mvn clean install
 
+cd $PROJ_PATH/Guns/target
 mv guns-1.0.0.jar guns.jar
 java -jar guns.jar
 
