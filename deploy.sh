@@ -5,7 +5,7 @@ cd $PROJ_PATH/Guns
 
 echo "下面是路径=========================="
 echo `$PROJ_PATH`
-
+echo "上面是路径=========================="
 mvn clean install
 
 cd $PROJ_PATH/Guns/target
