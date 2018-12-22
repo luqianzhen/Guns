@@ -28,7 +28,7 @@ rm -f $TOMCAT_APP_PATH/webapps/guns.jar
 cp $PROJ_PATH/Guns/target/guns-1.0.0.jar $TOMCAT_APP_PATH/webapps/
 
 cd $TOMCAT_APP_PATH/webapps
-mv gun.jar ROOT.jar
+mv guns-1.0.0.jar ROOT.jar
 
 #启动tomcat
 cd $TOMCAT_APP_PATH/
