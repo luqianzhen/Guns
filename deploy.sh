@@ -25,7 +25,7 @@ rm -f $TOMCAT_APP_PATH/webapps/ROOT.jar
 rm -f $TOMCAT_APP_PATH/webapps/guns.jar
 
 # 复制新的工程
-cp $PROJ_PATH/Guns/target/gun.jar $TOMCAT_APP_PATH/webapps/
+cp $PROJ_PATH/Guns/target/guns-1.0.0.jar $TOMCAT_APP_PATH/webapps/
 
 cd $TOMCAT_APP_PATH/webapps
 mv gun.jar ROOT.jar
